@@ -12,6 +12,7 @@ body{
     justify-content: center;
     height: 100vh;
     background-color: #0984e3;
+    text-align: center;
 }
 
 input{
@@ -19,14 +20,13 @@ input{
     border: none;
     border-radius: 7px;
     margin: 5px;
+    width: 85px;
 }
 
 .container{
     background-color: #dfe6e9;
-    
     border-radius: 25px;
-    text-align: center;
-    padding: 20px 30px;
+    padding: 20px 80px;
     box-shadow: 0rem 1rem 1rem rgba(0,0,0,.3)!important;
 }
 

@@ -10,12 +10,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>Gerador de numeros aleatórios</h1>
+        <h1>Sorteador de numeros</h1>
     
         <h2 id="numeroGerado"></h2>
-    
-        <input type="number" id="iptMinimo" placeholder="Numero mínimo" title="Numero mínimo">
-        <input type="number" id="iptMaximo" placeholder="Numero máximo" title="Numero máximo">
+        <div class="conteudo">
+            <p>
+                Sortear
+                <input type="number" id="iptVezes" placeholder="1" value="1" title="Quantos numeros deseja sortear">
+                numeros entre
+                <input type="number" id="iptMinimo" placeholder="Mínimo" title="Numero mínimo">
+                e 
+                <input type="number" id="iptMaximo" placeholder="Máximo" title="Numero máximo">
+            </p>
+        </div>
         <br>
         <button id="btnGerar" class="button" onclick="gerarNumeroAleatorio();">Gerar</button>
     </div>
