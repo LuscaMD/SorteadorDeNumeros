@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Gerador de numeros aleatórios</title>
 </head>
 <body>
     <div class="container">
         <h1>Sorteador de numeros</h1>
-    
         <h2 id="numeroGerado"></h2>
         <div class="conteudo">
             <p>
                 Sortear
                 <input type="number" id="iptVezes" placeholder="1" value="1" title="Quantos numeros deseja sortear">
                 numeros entre
-                <input type="number" id="iptMinimo" placeholder="Mínimo" title="Numero mínimo">
+                <input type="number" id="iptMinimo" placeholder="Mínimo" value="1" title="Numero mínimo">
                 e 
-                <input type="number" id="iptMaximo" placeholder="Máximo" title="Numero máximo">
+                <input type="number" id="iptMaximo" placeholder="Máximo" value="10" title="Numero máximo">
             </p>
         </div>
         <br>
         <button id="btnGerar" class="button" onclick="gerarNumeroAleatorio();">Gerar</button>
     </div>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

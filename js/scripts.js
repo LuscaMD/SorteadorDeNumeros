@@ -5,6 +5,8 @@ function gerarNumeroAleatorio(numVezes,numMinimo, numMaximo, resultado){
     var numMaximo = parseInt(document.getElementById("iptMaximo").value); 
     var resultado, i = 0;
 
+
+
     do{
 
         if(numMinimo < 0){

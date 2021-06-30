@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    animation: bgcolor 100s infinite;
+    animation-direction: alternate;
+}
+
+input{
+    padding: 2%;
+    border: none;
+    border-radius: 7px;
+    margin: 5px;
+    width: 85px;
+}
+
+p{
+    text-align:center
+}
+
+.container{
+    box-sizing: border-box;
+    width: 55%;
+    background-color: #dfe6e9;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 45px rgba(0,0,0,0.7)!important;
+}
+
+.button{
+    background: #00b894;
+    border: 3px solid #00b894;
+    padding: 10px;
+    transition: 0.7s;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    color: #008066;
+    width: 50%;
+}
+
+.button:hover{
+    background-color: white;
+    color: #7f8c8d;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.container{
+        width: 85%;
+        
+    }
+
+    .button{
+        width: 75%;
+    }
+
+    input{
+        width: 25%;
+    }
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #e40303;
+    }
+
+    20% {
+        background-color: #ff8c00;
+    }
+
+    40% {
+        background-color: #ffed00;
+    }
+
+    60% {
+        background-color: #66bf39;
+    }
+
+    80% {
+        background-color: #0984e3;
+    }
+
+    100% {
+        background-color: #750787;
+    }
+}
